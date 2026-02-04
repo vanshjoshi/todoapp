@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo systemctl stop tomcat
+systemctl stop tomcat
