@@ -2,8 +2,15 @@ version: 0.0
 os: linux
 
 files:
-  - source: target/*.war
+  - source: "*.war"
     destination: /opt/tomcat/webapps
+
+permissions:
+  - object: scripts
+    pattern: "**"
+    owner: root
+    group: root
+    mode: 755
 
 hooks:
   ApplicationStop:
