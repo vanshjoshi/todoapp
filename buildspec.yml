@@ -4,12 +4,15 @@ phases:
   install:
     runtime-versions:
       java: corretto25
+
   build:
     commands:
       - mvn clean package
+      - mv target/todoapp.war target/ROOT.war
 
 artifacts:
   files:
-    - target/*.war
+    - target/ROOT.war
     - appspec.yml
     - scripts/**
+
