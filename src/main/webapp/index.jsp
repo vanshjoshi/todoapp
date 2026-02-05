@@ -4,7 +4,7 @@
     <title>Todo App</title>
 </head>
 <body>
-<h2>My Todo List 🚀</h2>
+<h2>My Todo List Latest Check By Binay Sir 🚀</h2>
 
 <form method="post" action="todo">
     <input type="text" name="task" placeholder="Enter task" required/>
