@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 
 files:
-  - source: target/todoapp.war
+  - source: target/ROOT.war
     destination: /opt/tomcat/webapps
 
 permissions:
